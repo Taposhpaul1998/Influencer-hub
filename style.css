@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #4a474714;
+    background-color: #ede9b414;
 }
 h2,h3,h4,p,a,span{
     font-family: 'Poppins', sans-serif;
@@ -67,6 +67,7 @@ h2,h3,h4,p,a,span{
     font-weight: 600;
     color: #000000cf;
 }
+/* our journey section  */
 .our-journey {
     padding-top: 25px;
     display: flex;
@@ -75,21 +76,21 @@ h2,h3,h4,p,a,span{
 
 .journey-disc h1 {
     color: #000000cf;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
+    margin-bottom: 0px;
 }
 .journey-img img {
-    width: 300px;
+    width: 315px;
 }
 
 .journey-disc {
-    margin-right: 55px;
+    margin-right: 112px;
     margin-top: 25px;
 }
 
 .journey-disc p {
-    margin-top: -20px;
     color: #2d2d2d;
     font-size: 14px;
     margin-bottom: 25px;
@@ -109,3 +110,102 @@ a.anchore-button i {
     font-size: 10px;
 }
 .journey-img {padding: 10px;padding-top: 0px;}
+
+/* advertisement section  */
+.advertisement-area {
+    border-top: 2px solid #afb3b74d;
+    border-bottom: 2px solid #afb3b74d;
+    padding: 25px 0px;
+    margin: 62px 0px;
+}
+
+.advertisement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.advertisement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.advertise-img {
+    width: 75px;
+}
+
+.advertise-img img {
+    max-width: 100%;
+}
+
+h2.collect-title {
+    text-align: center;
+    color: #000000d9;
+    margin: 20px 0px;
+}
+
+.populer-collection {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.collect-img {
+    width: 247px;
+    padding: 12px;
+    padding-bottom: 0px;
+}
+
+.collect-img img {max-width: 100%;}
+
+.singel-collect {
+    border: 1px solid #a9a3a32e;
+    border-radius: 4px;
+    box-shadow: 2px 5px 20px #918f8f7d;
+}
+
+.collect-disc {
+    padding: 0px 12px;
+}
+
+.collect-info h2 {
+    margin: 5px 0px;
+    color: #000000d9;
+}
+
+.collect-info span {
+    font-size: 17px;
+    color: #000000d9;
+}
+
+.retinga {
+    width: 170px;
+}
+
+.retinga ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+.retinga ul li {
+    list-style: none;
+}
+
+.retinga ul li a {
+    color: orange;
+    font-size: 10px;
+}
+.retinga ul span {
+    margin-left: 10px;
+    font-size: 15px;
+    color: #000000d1;
+}
+
+.retinga p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000a3;
+}
+
